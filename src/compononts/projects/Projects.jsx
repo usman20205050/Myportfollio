@@ -4,14 +4,14 @@ const project = [
     {
         name:"Ecommerse Store",
         discripation:"React redux Project",
-        imgaddresse:"../../../public/ecommerse.png",
+        imgaddresse:"ecommerse.png",
         githuburl:"#",
         projecturl:"#"
     },
     {
         name:"Todo Apps",
         discripation:"React redux Project",
-        imgaddresse:"../../../public/ecommerse.png",
+        imgaddresse:"ecommerse.png",
         githuburl:"https://github.com/usman20205050/React-projects/tree/main/02UserRedux",
         projecturl:"#"
     }

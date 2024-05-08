@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 15px;
 }
 @media only screen and (max-width: 768px) {
     /* Add desktop/tablet specific styles here */
