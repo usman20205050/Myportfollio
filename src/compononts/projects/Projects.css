@@ -1,0 +1,91 @@
+.pmain{
+    max-height: 100vh;
+    width: 60vw;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.7);
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+    /* padding: 50px; */
+}
+
+.pmain:hover{
+    transform: scale(1.09);
+}
+
+.pgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    margin-top: 20px;
+    padding: 3px;
+    place-items: center;
+}
+.pbox{
+    width: 240px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius:10px;
+}
+.pbox:hover{
+    transform: scale(1.05);
+}
+.pboximg{
+    border-radius:10px;
+}
+.pmain h1{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.5s;
+}
+.pmain h1:hover{
+    transform: scale(1.09);
+}
+.codelinks{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+}
+/* this is for medium screen  */
+/* @media only screen and (max-width: 990px){
+
+} */
+@media only screen and (max-width: 768px) {
+    .pmain{
+        width: 90%;
+    }
+    .pgrid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        margin-top: 20px;
+        grid-gap: 30px;
+        padding: 3px;
+        place-items: center;
+    }
+    .pbox{
+        width: 200px;
+        box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+        margin: 4px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        margin: 20px;
+    }
+    .pbox:hover{
+        transform: scale(1.05);
+    }
+}

@@ -1,0 +1,88 @@
+
+/* .maintopprofile {
+  position: absolute;
+} */
+.mobilemenu{
+  width: 100px;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+  color: white;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.501);
+  height: 100vh;
+}
+.topbarnavlinks {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:50px;
+  left:0px;
+  gap:30px;
+  text-align: center;
+}
+.maintopprofile a{
+  font-size: 14px;
+}
+.darktopbtn {
+  font-size: 50px;
+  width: 100px;
+  z-index: 100;
+  color: white;
+}
+.topprofile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+.topprofile h1{
+ font-size: 30px;
+ font-weight: bold;
+}
+.lighttopprofile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:black;
+}
+.lighttopprofile h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+.lighttopprofile h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.lighttopprofile img{
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 150px;
+  height: 150px;
+  transition: 0.5s;
+}
+.topprofile img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+}
+.sociallinks a{
+  font-size: 25px;
+}
+.topprofile h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+.topprofile h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.lighttopbtn{
+  color: black;
+  font-size: 50px;
+  width: 100px;
+  z-index: 100;
+}

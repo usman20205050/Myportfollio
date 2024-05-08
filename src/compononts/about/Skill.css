@@ -1,0 +1,115 @@
+#skills{
+    margin-top: 50px;
+    max-height: 100vh;
+    width: 60vw;
+    background: rgb(0,0,0,0.7);
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-bottom: 100px;
+    padding: 50px;
+    padding-top: 0px;
+}
+#skills:hover{
+    transform: scale(1.09);
+}
+#skills h3{
+    transition: 0.5s;
+}
+#skills h3:hover{
+    transform: scale(1.09);
+}
+
+.insideabout{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.insideabout .left{
+    min-height: inherit;
+    min-width: 30%;
+    transition: 0.5s;
+}
+.left:hover{
+    transform: scale(1.09);
+}
+.left img{
+    width: 350px;
+    height:350px;
+    
+}
+.insideabout .right{
+    color: white;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.righttwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sleft{
+    display: flex;
+    flex-direction: column;
+}
+.sright{
+    display: flex;
+    flex-direction: column;
+}
+#skills h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+/* .skillslogo{
+    padding: 10px;
+} */
+.myskills{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    margin: 10px;
+
+}
+@media only screen and (max-width: 768px) {
+    /* Add desktop/tablet specific styles here */
+    #skills{
+        height: 100%;
+        width: 90%;
+        margin-top: 70px;
+    }
+    .topbarimg:hover{
+        transform: scale(1.09);
+        font-weight: bold;
+    }
+    .insideabout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .left{
+        display: none;
+    }
+    #skills h3{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin-top: 7px;
+    }
+ p{
+        font-size: 14px;
+    }
+  }

@@ -1,0 +1,71 @@
+.mainpage{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(0,0,0,0.95);
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+.lightmainpage{
+    display: flex;
+    justify-content: space-between;
+    background:url("./assets/bgmain.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+.darkbtn{
+    position: absolute;
+    color: #ffd22b;
+    top:50px;
+    right: 100px;
+}
+.lightbtn{
+    position: absolute;
+    color: black;
+    top:50px;
+    right: 100px;
+}
+.topbar{
+    display: none;
+}
+#navbar{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    /* Add desktop/tablet specific styles here */
+    .mainpage{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .lightmainpage{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .desktop{
+        display: none;
+    }
+    .topbar{
+        display: block;
+    }
+    #rightbar{
+       display: none;
+    }
+    #navbar{
+        display: block;
+    }
+    .darkbtn{
+        position: absolute;
+        color:white;
+        top:20px;
+        right: 40px;
+    }
+    .lightbtn{
+        position: absolute;
+        color: black;
+        top:20px;
+        right: 40px;
+    }
+  }

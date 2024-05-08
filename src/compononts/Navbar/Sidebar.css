@@ -1,0 +1,52 @@
+.sidebar{
+    background:rgb(0, 0, 0, 0.7);
+    width: 220px;
+    height: 100vh;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    overflow: auto;
+    color:white;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+  }
+.profile{
+    text-align: center;  
+}
+.profile img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    transition: 0.5s;
+    
+}
+.profile img:hover{
+    transform: scale(1.09);
+}
+.image hr{
+    margin-top: 10px;
+}
+.myinfo hr{
+    margin-top: 20px;
+}
+.sociallinks{
+    display: flex;
+    margin: 10px 0px; 
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.myinfo{
+    font-size: 14px;
+}
+.myinfoitems{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:20px;
+}
